@@ -3,7 +3,7 @@ import { Comment, CommentModel } from "./comment";
 import { Credit, CreditModel } from "./credit";
 import { Media, MediaModel } from "./media";
 
-export type ProjectStatus = "game" | "game-desktop" | "demo" | "demo-desktop" | "code" | "broken";
+export type ProjectStatus = "game" | "game-desktop" | "demo" | "demo-desktop" | "code" | "broken" | "hidden";
 
 export var SortedTags = [
     "arcade",

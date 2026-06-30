@@ -1,5 +1,7 @@
 <div class="projects-container">
     @for (project of projects(); track project.id) {
-        <app-project-tile [project]="project" />
+        @if (project.status !== "hidden") {
+            <app-project-tile [project]="project" />
+        }
     }
 </div>

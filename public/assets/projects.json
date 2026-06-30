@@ -141,6 +141,22 @@
             "description": [
                 "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
             ],
+            "credits": [
+                {
+                    "role": "Code & Art",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Concept",
+                    "description": "Simon Tatham's Portable Puzzle Collection",
+                    "name": "Simon Tatham",
+                    "website": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+                }
+            ],
             "tags": ["typescript", "babylon.js", "puzzle", "webgl"],
             "tiaratumGames": true,
             "medias": [{ "url": "assets/images/sejekul.png" }],
@@ -201,6 +217,22 @@
                 "The neat skybox was generated using Space-3D project, thanks a lot to wwwTyro.",
                 "Toon Shading Demo display customizable spaceships using Toon lightning and outline post-process (Sobel algorithm)"
             ],
+            "credits": [
+                {
+                    "role": "Code & Art",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Skybox",
+                    "description": "Space 3D",
+                    "name": "Rye Terrell",
+                    "website": "http://wwwtyro.github.io/space-3d/"
+                }
+            ],
             "tags": ["typescript", "babylon.js"],
 			"medias": [
                 { "url": "assets/images/space-scout/space-scout-zoom.jpg" },
@@ -217,6 +249,22 @@
             "status": "demo",
             "description": [
                 "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "credits": [
+                {
+                    "role": "Code & Art",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Skull Model",
+                    "description": "Low Poly Skull (CC-BY 4.0)",
+                    "name": "DGordillo",
+                    "website": "https://blendswap.com/profile/479"
+                }
             ],
             "tags": ["typescript", "babylon.js", "voxels"],
             "medias": [{ "url": "assets/images/voxels-skull.png" }],
@@ -544,6 +592,30 @@
             "medias": [{ "url": "assets/images/babylonjs-tiaratumgames-tools.PNG" }],
             "npmUrl": "https://www.npmjs.com/package/babylonjs-tiaratumgames-tools",
             "sourceUrl": "https://github.com/SvenFrankson/babylonjs-tiaratumgames-tools"
+        },
+        {
+            "id": "gu-yen",
+            "score": 0,
+            "title": "Gu Yen",
+            "lastUpdate": 2026,
+            "status": "hidden",
+            "tags": ["typescript", "babylon.js", "voxels"]
+        },
+        {
+            "id": "dodo-qix",
+            "score": 0,
+            "title": "Dodo Qix",
+            "lastUpdate": 2026,
+            "status": "hidden",
+            "tags": ["typescript", "arcade"]
+        },
+        {
+            "id": "jarvisbook",
+            "score": 0,
+            "title": "JarvisBook",
+            "lastUpdate": 2026,
+            "status": "hidden",
+            "tags": ["c#"]
         }
 	]
 }
