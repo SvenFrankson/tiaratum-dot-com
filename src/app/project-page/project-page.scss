@@ -1,0 +1,134 @@
+.project-page {
+    padding: 0px;
+    padding-bottom: 50px;
+}
+
+.project-page .container {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    text-align: center;
+}
+
+@media (min-width: 1280px) {
+    .project-page .container {
+        width: calc(50% - 40px);
+        padding: 0px 20px;
+    }
+
+    .project-page .container-description {
+        
+    }
+}
+
+.project-page .project-title {
+    margin-left: 10px;
+    font-size: 40px;
+    -webkit-text-stroke: 0px;
+    color: black;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+    border-bottom: 1px solid var(--color-white);
+}
+
+@media (min-width: 1280px) {
+    .project-page .project-title {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+}
+
+.project-page .project-status {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 24px;
+}
+
+@media (min-width: 1280px) {
+    .project-page .project-status {
+        
+    }
+}
+
+.project-page .project-status i {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.project-page .project-status span {
+    font-size: 20px;
+    transform: translateY(0px);
+    vertical-align: middle;
+}
+
+.project-status img {
+    display: inline-block;
+    height: 24px;
+    margin-left: 15px;
+    background-color: var(--color-background);
+    vertical-align: bottom;
+}
+
+.tags {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.project-page .tag {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.project-page .description-container {
+    display: block;
+    margin-top: 20px;
+}
+
+.project-page p {
+    text-align: justify;
+    color: var(--color-white);
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.project-page app-media-container {
+    display: inline-block;
+    width: calc(min(100%, 800px));
+    margin-top: 20px;
+}
+
+.project-page app-comment-container {
+    display: inline-block;
+    width: calc(min(100%, 600px));
+    margin-top: 20px;
+}
+
+.project-page app-links {
+    display: block;
+    width: calc(min(100%, 600px));
+    margin: 20px auto 0px auto;
+}
+
+.project-page app-links.col-1 {
+    display: none;
+}
+.project-page app-links.col-2 {
+    display: block;
+}
+
+@media (max-width: 1280px) {
+    .project-page app-links.col-1 {
+        display: block;
+    }
+    .project-page app-links.col-2 {
+        display: none;
+    }
+}
+
+.project-page app-credit-container {
+    display: block;
+    margin-top: 20px;
+}

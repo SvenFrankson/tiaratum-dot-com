@@ -1,0 +1,35 @@
+@if (project(); as proj) {
+    <div class="project-page">
+        <div class="project-title">{{ proj.title | uppercase }}</div>
+
+
+            <div class="container">
+                <div class="tags">
+                    @for (tag of proj.tags; track tag) {
+                        <span class="tag {{ proj.tagClass(tag) }}">{{ proj.tagText(tag) | uppercase }}</span>
+                    }
+                </div>
+                <div class="project-status">
+                    <i class="{{ proj.icon() }}"></i><span>{{ proj.statusName() | uppercase }} // {{ proj.lastUpdate }}</span>
+                    @if (proj.tiaratumGames) {
+                        <img class="tiaratum-logo" src="assets/icons/logo-white-no-bg.svg" alt="Logo">
+                    }
+                </div>
+                <app-media-container [medias]="proj.medias"></app-media-container>
+                <app-links class="col-1" [project]="proj"></app-links>
+                <app-comment-container [comments]="proj.comments"></app-comment-container>
+            </div>
+
+            <div class="container container-description">
+                <app-links class="col-2" [project]="proj"></app-links>
+                <div class="description-container">
+                    @for (line of proj.description; track line) {
+                        <p>{{ line }}</p>
+                    }
+                </div>
+                <app-credit-container [credits]="proj.credits"></app-credit-container>
+            </div>
+
+        
+    </div>
+}

@@ -1,0 +1,19 @@
+<div class="media-container">
+    <div class="image-container">
+        @if (activeMedia(); as media) {
+            <img [src]="media.url" alt="{{ media.name }}"/>
+        }
+        @if (medias().length > 1) {
+            <div class="dots-container">
+                @for (media of medias(); track media.url) {
+                    <button class="dot" [class.active]="media === activeMedia()"></button>
+                }
+            </div>
+            <button class="prev" (click)="decrementMediaIndex()"><i class="bi bi-caret-left-fill"></i></button>
+            <button class="next" (click)="incrementMediaIndex()"><i class="bi bi-caret-right-fill"></i></button>
+        }
+    </div>
+    @if (activeMedia(); as media) {
+        <div class="media-description">{{ media.description }}</div>
+    }
+</div>

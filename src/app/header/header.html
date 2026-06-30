@@ -1,0 +1,8 @@
+<div class="header">
+    <h1>Sven // <img src="assets/icons/logo-white-no-bg.svg" alt="Logo"></h1>
+    <div class="container">
+        <button [class.active]="isHomePage" (click)="router.navigate(['/'])">HOME</button>
+        <button [class.active]="isAboutPage" (click)="router.navigate(['/about'])">ABOUT</button>
+        <button [class.active]="isContactPage" (click)="router.navigate(['/contact'])">CONTACT</button>
+    </div>
+</div>

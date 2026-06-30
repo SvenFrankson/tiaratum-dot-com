@@ -1,0 +1,102 @@
+* {
+    --project-tile-margin: 4px;
+    --project-tile-padding: 5px;
+    --project-tile-border-width: 1px;
+    --project-tile-width: calc(min(50vw - 2 * var(--project-tile-margin) - 2 * var(--project-tile-padding) - 2 * var(--project-tile-border-width), 300px));
+}
+
+@media (min-width: 1250px) {
+    * {
+        --project-tile-margin: 5px;
+        --project-tile-padding: 10px;
+        --project-tile-border-width: 2px;
+    }
+}
+
+.project-tile {
+    position: relative;
+    display: inline-block;
+    width: var(--project-tile-width);
+    height: var(--project-tile-width);
+    margin: var(--project-tile-margin);
+    padding: var(--project-tile-padding);
+    background-color: var(--color-background);
+    border-radius: 10px;
+    border: var(--project-tile-border-width) solid var(--color-white);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    vertical-align: top;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.project-tile .project-title {
+    color: var(--color-white);
+    font-size: 20px;
+    background-color: var(--color-main-transparent);
+    width: fit-content;
+    padding: 0px 15px 2px 15px;
+    margin: 5px 0px 5px calc(-1 * var(--project-tile-padding));
+    border-bottom: 1px solid white;
+}
+
+@media (max-width: 1250px) {
+    .project-tile .project-title {
+        font-size: 16px;
+        padding: 0px 5px 2px 5px;
+    }
+}
+
+.project-tile .links {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    text-align: right;
+}
+
+.project-tile .links button {
+    display: block;
+    margin: 0px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.tiaratum-logo {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    padding: 2px 6px 4px 2px;
+    height: 26px;
+    background-color: var(--color-background);
+    border: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 1250px) {
+    .tiaratum-logo {
+        height: 18px;
+    }
+}
+
+.last-update {
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    padding: 0px 4px;
+    background-color: var(--color-main);
+    border-radius: 3px;
+}
+
+.tags {
+    width: calc(100% - 10px);
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    text-align: left;
+}

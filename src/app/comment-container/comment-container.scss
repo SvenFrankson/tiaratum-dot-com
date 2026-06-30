@@ -1,0 +1,102 @@
+.comment-container {
+    position: relative;
+}
+
+p.comment {
+    max-width: calc(100% - 120px);
+    height: 120px;
+    text-align: justify;
+    color: var(--color-nice-text);
+    background-color: var(--color-nice);
+    font-size: 16px;
+    padding: 5px 20px;
+    margin: 10px auto 0px auto;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+p.comment .comment-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+p.comment .comment-author {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+@media (max-width: 1280px) {
+    p.comment {
+        max-width: calc(100% - 100px);
+        padding: 5px 10px;
+    }
+    p.comment .comment-text {
+        font-size: 16px;
+    }
+
+    p.comment .comment-author {
+        font-size: 14px;
+    }
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: calc(50% - 10px);
+    transform: translateY(-50%);
+    width: 40px;
+    height: 100%;
+    line-height: 0px;
+    font-size: 40px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 40px;
+    color: var(--color-white);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.dots-container {
+    width: 100%;
+}
+
+button.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    padding: 0;
+    margin: 0px 10px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+button.dot.active {
+    width: 10px;
+    height: 10px;
+    margin: 5px 5px;
+}
+
+.comment-description {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

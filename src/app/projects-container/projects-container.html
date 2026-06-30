@@ -1,0 +1,5 @@
+<div class="projects-container">
+    @for (project of projects(); track project.id) {
+        <app-project-tile [project]="project" />
+    }
+</div>

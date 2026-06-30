@@ -1,0 +1,10 @@
+.projects-container {
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 1280px) {
+    .projects-container {
+        margin-top: 10px;
+    }
+}

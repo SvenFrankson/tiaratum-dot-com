@@ -1,0 +1,15 @@
+@if (credits().length > 0) {
+    <div class="credit-container">
+        <div class="credits-title">CREDITS</div>
+        @for (credit of credits(); track credit.role) {
+            <div class="credit">
+                <span class="credit-role">{{ credit.role | uppercase }}</span>
+                <span class="credit-description">{{ credit.description }}</span>
+                <span class="credit-name">{{ credit.name }}</span>
+                @if (credit.website) {
+                    <a class="credit-website" [href]="credit.website" target="_blank" rel="noopener noreferrer">{{ credit.website }}</a>
+                }
+            </div>
+        }
+    </div>
+}

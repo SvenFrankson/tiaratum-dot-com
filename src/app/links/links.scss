@@ -1,0 +1,40 @@
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 0px;
+    width: 150px;
+    height: 60px;
+    background-color: var(--color-gold);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-gold-text);
+    cursor: pointer;
+    user-select: none;
+}
+
+button.disabled {
+    pointer-events: none;
+    filter: grayscale(100%);
+}
+
+button .links-button-name {
+    display: block;
+    margin-top: -4px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+button .links-target-name {
+    display: block;
+    margin-top: -2px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}

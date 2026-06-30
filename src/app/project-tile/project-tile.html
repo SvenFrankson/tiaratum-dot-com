@@ -1,0 +1,16 @@
+<div class="project-tile" [ngStyle]="{ 'background-image': project().cardUrl ? 'url(' + project().cardUrl + ')' : 'none' }" (click)="onClick()">
+	<div class="project-title">{{ project().title | uppercase }}</div>
+    <div class="project-status">
+        <i class="{{ project().icon() }}"></i><span>{{ project().statusName() | uppercase }}</span>
+    </div>
+    @if (project().tiaratumGames) {
+        <img class="tiaratum-logo" src="assets/icons/logo-white-no-bg.svg" alt="Logo">
+    }
+    <div class="tags">
+        @for (tag of project().tags; track tag) {
+            @if ($index < 3) {
+                <span class="tag {{ project().tagClass(tag) }}">{{ project().tagText(tag) | uppercase }}</span>
+            }
+        }
+    </div>
+</div>

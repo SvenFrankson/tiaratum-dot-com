@@ -1,0 +1,22 @@
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+* {
+    --color-black: #000501;
+    --color-white: #ffffff;
+    --color-gold: #F7B801;
+    --color-gold-text: black;
+    --color-nice: #A93F55;
+    --color-nice-text: white;
+    --color-background: #26272b;
+    --color-main: #1F7A8C;
+    --color-main-text: white;
+    --color-main-transparent: #1F7A8CD0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--color-background);
+    padding: 0;
+    margin: 0;
+}

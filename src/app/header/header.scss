@@ -1,0 +1,57 @@
+.header {
+    background-color: var(--color-main);
+    color: var(--color-main-text);
+    padding: 0px;
+}
+
+.header .container {
+    display: inline-flex;
+    width: 100%;
+    max-width: min(500px, 100%);
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 30px;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+h1 img {
+    margin: 5px 5px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 26px;
+        display: block;
+        background-color: var(--color-nice);
+        color: var(--color-nice-text);
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+.header button {
+    font-size: 22px;
+    height: 50px;
+    margin: 0px;
+    background-color: var(--color-main);
+    color: var(--color-main-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header button.active {
+    text-decoration: underline;
+}

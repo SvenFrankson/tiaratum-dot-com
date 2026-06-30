@@ -1,0 +1,42 @@
+.credits-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.credit {
+    color: white;
+    max-width: 400px;
+    margin:auto;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ffffff80;
+}
+
+.credit .credit-role {
+    display: block;
+    font-weight: 500;
+    text-align: left;
+}
+
+.credit .credit-description {
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.credit .credit-name {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: right;
+}
+
+.credit .credit-website {
+    color: white;
+    display: block;
+    font-weight: 300;
+    text-align: right;
+}

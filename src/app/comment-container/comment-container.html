@@ -1,0 +1,19 @@
+<div class="comment-container">
+    @if (activeComment(); as comment) {
+        <p class="comment">
+            <span class="comment-text">{{ comment.text }}</span>
+            <span class="comment-author">{{ comment.author }}</span>
+        </p>
+    }
+    @if (comments().length > 1) {
+        <div class="dots-container">
+            @for (comment of comments(); track comment.text) {
+                <button class="dot" [class.active]="comment === activeComment()"></button>
+            }
+        </div>
+    }
+    @if (activeComment(); as comment) {
+        <button class="prev" (click)="decrementCommentIndex()"><i class="bi bi-caret-left-fill"></i></button>
+        <button class="next" (click)="incrementCommentIndex()"><i class="bi bi-caret-right-fill"></i></button>
+    }
+</div>

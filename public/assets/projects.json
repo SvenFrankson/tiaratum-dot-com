@@ -1,0 +1,549 @@
+{
+	"projects": [
+		{
+            "id": "marble-run-simulator",
+            "score": 100,
+			"title": "Marble Run Simulator",
+            "lastUpdate": 2026,
+            "status": "game",
+			"description": [
+                "Marble Run Simulator is a construction game, a tool to build beautiful kinetic sculptures. It features a homemade lifelike physic engine that can run on a mobile web-browser.",
+                "With more than 20 different parameterizable track elements in its current version, the machine editor offers endless building possibilities.",
+                "Constructions made in Marble Run Simulator can be hosted on Tiaratum Games server to be shared online via a simple url.",
+                "Marble Run Simulator is exclusively distributed by Poki.",
+                "Released on July 3rd 2024, more than 1 000 000 players have already played Marble Run Simulator and shared thousands of machines."
+            ],
+            "comments": [
+                { "text": "\"This is SO FUN! It reminds me of building coasters in Rollercoaster Tycoon.\"", "author": "— Carol, BabylonJS 3D graphics dev" },
+                { "text": "\"I wanted to be an engineer and this games physics is so cool for an engineer no im playing non stop in this game!\"", "author": "— Anonymous Player" },
+                { "text": "\"Let's be honest, this is one of the best thing I saw in a while.\"", "author": "— David \"Deltakosh\" Catuhe, BabylonJS creator" },
+                { "text": "\"You know this is insane in a good way right ???\"", "author": "— Sebavan, SpectorJS creator" },
+                { "text": "\"This is absolutely incredible !!! I LOVE it !\"", "author": "— Jason \"PirateJC\" Carter, Microsoft Product Lead" }
+            ],
+            "credits": [
+                {
+                    "role": "Code & Game Design",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Skybox",
+                    "description": "City Rooftop Night Skybox (CC-BY 4.0)",
+                    "name": "Luis Vidal",
+                    "website": "https://sketchfab.com/Luis_Vidal"
+                }
+            ],
+            "tags": ["typescript", "babylon.js", "php", "physic", "webgl", "simulation", "construction"],
+            "tiaratumGames": true,
+            "cardIndex": 1,
+            "miniatureIndex": 0,
+            "medias": [
+                {
+                    "url":"assets/images/marble-run-simulator/thumbnail_5.png",
+                    "description": "Marble Run Simulator 3D"
+                },
+                { 
+                    "url": "assets/images/marble-run-simulator/marble-run-simulator.png",
+                    "description": "Endless possibilities"
+                },
+                { 
+                    "url": "assets/images/marble-run-simulator/editor-2026.png",
+                    "description": "Powerful editor"
+                },
+                { 
+                    "url": "assets/images/marble-run-simulator/1264_Huangs Marble Invention.png",
+                    "description": "Innovative marble designs"
+                },
+                { 
+                    "url": "assets/images/marble-run-simulator/1921_Le Grand G.png",
+                    "description": "Turing Complete"
+                },
+                { 
+                    "url": "assets/images/marble-run-simulator/5732_A Best Physic Engine_1440p.png",
+                    "description": "Best Physics Engine"
+                }
+            ],
+			"playUrl": "https://poki.com/en/g/marble-run-simulator",
+			"sourceUrl": "https://github.com/SvenFrankson/marble-run-simulator-core"
+		},
+		{
+            "id": "carillion",
+            "score": 90,
+			"title": "Carillion",
+            "lastUpdate": 2026,
+            "status": "game",
+            "description": [
+                "Carillion is an arcade-puzzle game.",
+                "Along more than 80 levels, collect colored Tiles using a Puck that you may only steer left or right while it bounces in a 3D decor.",
+                "Simple to learn, hard to put down, try it now !"
+            ],
+            "comments": [
+                { "text": "\"A very fun, fairly addictive puzzle game! It was nice trying to think through how to advance, then actually pull it off in the moment. Good job!\"", "author": "— rosko vair (itch.io)" },
+                { "text": "\"All in all, this is a very strong submission with clever novel mechanics and outstanding presentation, one of the best I've played in this jam yet. Great work!\"", "author": "— Lanyard (itch.io)" }
+            ],
+            "credits": [
+                {
+                    "role": "Code & Game Design",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Music",
+                    "description": "tranquilness",
+                    "name": "HarumachiMusic",
+                    "website": "https://harumachiworks.com/"
+                }
+            ],
+            "tags": ["typescript", "babylon.js", "arcade", "puzzle", "webgl"],
+            "tiaratumGames": true,
+            "cardIndex": 5,
+            "medias": [
+                {
+                    "url": "assets/images/carillion/miniature_2_800x800.png",
+                    "description": "Carillion"
+                },
+                { 
+                    "url": "assets/images/carillion/return-of-the-rhinoceros.png",
+                    "description": "3D Levels"
+                },
+                { 
+                    "url": "assets/images/carillion/return-of-the-worm.png",
+                    "description": "Challenge your reflexes."
+                },
+                { 
+                    "url": "assets/images/carillion/way-of-the-salmon.png",
+                    "description": "Think like a salmon."
+                },
+                { 
+                    "url": "assets/images/carillion/xmas-4.png",
+                    "description": "Celebrate."
+                },
+                { 
+                    "url": "assets/images/carillion/carillion.png",
+                    "description": "Carillion"
+                }
+            ],
+			"playUrl": "https://wavedash.com/games/carillion",
+            "sourceUrl": "https://github.com/SvenFrankson/fluid-x"
+		},
+		{
+            "id": "sejekul",
+            "score": 50,
+			"title": "Sejekul",
+            "lastUpdate": 2025,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "puzzle", "webgl"],
+            "tiaratumGames": true,
+            "medias": [{ "url": "assets/images/sejekul.png" }],
+			"playUrl": "https://tiaratum.com/sejekul/",
+            "sourceUrl": "https://github.com/SvenFrankson/floude"
+		},
+		{
+            "id": "gravitology",
+            "score": 50,
+			"title": "Gravitology",
+            "lastUpdate": 2026,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "physic"],
+            "tiaratumGames": true,
+            "medias": [{ "url": "assets/images/gravitology.png" }],
+			"playUrl": "https://tiaratum.com/gravitology/"
+		},
+		{
+            "id": "dodo-paradize",
+            "score": 95,
+			"title": "Dodo Paradize",
+            "lastUpdate": 2025,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "php", "network"],
+            "medias": [{ "url": "assets/images/dodopolis.png" }],
+			"playUrl": "https://dodopolis.tiaratum.com/#home"
+		},
+		{
+            "id": "space-strategist",
+            "score": 60,
+			"title": "Space Strategist",
+            "lastUpdate": 2019,
+            "status": "demo-desktop",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js"],
+			"medias": [{ "url": "assets/images/space-strategist-1.png" }],
+			"playUrl": "https://svenfrankson.github.io/space-strategist/scene-editor.html",
+            "sourceUrl": "https://github.com/SvenFrankson/space-strategist"
+		},
+		{
+            "id": "space-scout",
+            "score": 80,
+			"title": "Space Scout",
+            "lastUpdate": 2021,
+            "status": "demo-desktop",
+            "description": [
+                "SpaceScout is flight sim in space demo.",
+                "Very peaceful, the objective is to find some lost beacons in an asteroid minefield, with a help of your wingman.",
+                "Features a force-shield activated on asteroid impact, some custom physic engine and an efficient TrailRenderer.",
+                "The neat skybox was generated using Space-3D project, thanks a lot to wwwTyro.",
+                "Toon Shading Demo display customizable spaceships using Toon lightning and outline post-process (Sobel algorithm)"
+            ],
+            "tags": ["typescript", "babylon.js"],
+			"medias": [
+                { "url": "assets/images/space-scout/space-scout-zoom.jpg" },
+                { "url": "assets/images/space-scout/space-scout.png" },
+                { "url": "assets/images/space-scout/space-scout-toon-shading.png" }
+            ],
+			"playUrl": "https://svenfrankson.github.io/space-scout/"
+		},
+		{
+            "id": "voxels",
+            "score": 70,
+			"title": "Voxels",
+            "lastUpdate": 2022,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "voxels"],
+            "medias": [{ "url": "assets/images/voxels-skull.png" }],
+            "playUrl": "http://svenfrankson.github.io/voxels/index.html",
+            "sourceUrl": "https://github.com/SvenFrankson/voxels"
+		},
+		{
+            "id": "scrabble-invader",
+            "score": 50,
+			"title": "Scrabble Invader",
+            "lastUpdate": 2018,
+            "status": "game-desktop",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "ludum dare"],
+            "medias": [{ "url": "assets/images/scrabble-invader-main-title.png" }],
+            "playUrl": "https://svenfrankson.github.io/scrabble_invader/",
+            "sourceUrl": "https://github.com/SvenFrankson/didactic-couscous"
+		},
+		{
+            "id": "somefin-in-the-way",
+            "score": 50,
+			"title": "Somefin in the Way",
+            "lastUpdate": 2017,
+            "status": "game-desktop",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "ludum dare"],
+            "medias": [{ "url": "assets/images/somefin-in-the-way-in-game.png" }],
+            "playUrl": "https://svenfrankson.github.io/somefin-in-the-way/",
+            "sourceUrl": "https://github.com/SvenFrankson/ludum-dare-40"
+		},
+		{
+            "id": "lego-builder",
+            "score": 50,
+			"title": "Lego Builder",
+            "lastUpdate": 2017,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "construction", "lego"],
+            "medias": [{ "url": "assets/images/lego-builder-v1.png" }],
+            "playUrl": "https://svenfrankson.github.io/BabylonDemoWeb/",
+            "sourceUrl": "https://github.com/SvenFrankson/babylon-demo"
+		},
+		{
+            "id": "openstreetmap-3d",
+            "score": 50,
+			"title": "OpenStreetMap 3D",
+            "lastUpdate": 2017,
+            "status": "code",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "openstreetmap", "hackathon"],
+            "medias": [{ "url": "assets/images/open-street-3d.png" }]
+		},
+		{
+            "id": "holobomb",
+            "score": 60,
+			"title": "Holobomb",
+            "lastUpdate": 2017,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "arcade"],
+            "medias": [{ "url": "assets/images/holobomb.png" }],
+            "playUrl": "https://svenfrankson.github.io/HoloBomb/"
+		},
+		{
+            "id": "planet-builder-web",
+            "score": 60,
+			"title": "Planet Builder Web",
+            "lastUpdate": 2023,
+            "status": "demo-desktop",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "voxels"],
+            "medias": [{ "url": "assets/images/planet-builder-web.png" }],
+            "playUrl": "https://svenfrankson.github.io/PlanetBuilderWeb/"
+		},
+		{
+            "id": "zoner",
+            "score": 50,
+			"title": "Zoner",
+            "lastUpdate": 2023,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript"],
+            "medias": [{ "url": "assets/images/zoner.png" }],
+			"playUrl": "https://svenfrankson.itch.io/zoner"
+		},
+		{
+            "id": "workforce",
+            "score": 30,
+			"title": "Workforce",
+            "lastUpdate": 2024,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js"],
+            "medias": [{ "url": "assets/images/workforce.png" }],
+			"playUrl": "https://svenfrankson.itch.io/trijam-254"
+		},
+		{
+            "id": "pontu",
+            "score": 30,
+			"title": "Pontu",
+            "lastUpdate": 2022,
+            "status": "game",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript"],
+            "medias": [{ "url": "assets/images/pontu.PNG" }],
+			"playUrl": "https://svenfrankson.itch.io/pontu",
+            "sourceUrl": "https://github.com/SvenFrankson/puppet"
+		},
+		{
+            "id": "planet-builder",
+            "score": 50,
+			"title": "Planet Builder",
+            "lastUpdate": 2017,
+            "status": "code",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["c#", "unity", "voxels"],
+            "medias": [{ "url": "assets/images/planet-builder.png" }]
+		},
+		{
+            "id": "libellule-paradize",
+            "score": 50,
+			"title": "Libellule Paradize",
+            "lastUpdate": 2015,
+            "status": "broken",
+            "description": ["This project was made for the Ludum Dare 32 game jam. Ludum Dare website is no longer available, so the game is not playable anymore."],
+            "tags": ["c#", "unity", "ludum dare"],
+            "medias": [{ "url": "assets/images/libellule-paradize-compo.jpg" }]
+		},
+		{
+            "id": "worldmaker",
+            "score": 50,
+			"title": "WorldMaker",
+            "lastUpdate": 2015,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["c#", "unity"],
+            "medias": [{ "url": "assets/images/world-maker.png" }]
+		},
+		{
+            "id": "tabuz",
+            "score": 50,
+			"title": "Tabuz",
+            "lastUpdate": 2015,
+            "status": "broken",
+            "description": ["This project was made for the Ludum Dare 32 game jam. Ludum Dare website is no longer available, so the game is not playable anymore."],
+            "tags": ["c#", "unity", "ludum dare"],
+            "medias": [{ "url": "assets/images/tabuz.png" }]
+		},
+		{
+            "id": "3d-spectrum",
+            "score": 50,
+			"title": "3D Spectrum",
+            "lastUpdate": 2015,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["c#", "unity"],
+            "medias": [{ "url": "assets/images/3d-spectrum.png" }]
+		},
+		{
+            "id": "je-suis-charlie",
+            "score": 50,
+			"title": "Je suis Charlie",
+            "lastUpdate": 2015,
+            "status": "broken",
+			"description": [
+                "This project is too old and will not work in a modern browser.",
+                "It was a humble tribute to the victims of the Charlie Hebdo attack in 2015."
+            ],
+            "tags": ["javascript"],
+            "medias": [{ "url": "assets/images/je-suis-charlie.png" }]
+		},
+		{
+            "id": "reverso",
+            "score": 50,
+			"title": "Reverso",
+            "lastUpdate": 2018,
+            "status": "code",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["c#", "unity"],
+            "medias": [{ "url": "assets/images/reverso.png" }],
+            "sourceUrl": "https://github.com/SvenFrankson/potential-octo-waddle"
+		},
+		{
+            "id": "lego-builder-vr",
+            "score": 50,
+			"title": "Lego Builder VR",
+            "lastUpdate": 2017,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "cardboard", "vr", "construction", "lego"],
+            "medias": [{ "url": "assets/images/lego-builder-vr.jpg" }],
+            "playUrl": "https://svenfrankson.github.io/VRBlockBuilder/",
+            "sourceUrl": "https://github.com/SvenFrankson/vr-demo"
+		},
+		{
+            "id": "water-sim-2d",
+            "score": 50,
+			"title": "Water Sim 2D",
+            "lastUpdate": 2026,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "physic"],
+            "medias": [{ "url": "assets/images/water-sim-2d.png" }],
+            "playUrl": "https://tiaratum.com/watersim2d/",
+            "sourceUrl": "https://github.com/SvenFrankson/water-caves-simulator-2d"
+		},
+		{
+            "id": "grapping-machine",
+            "score": 60,
+			"title": "Grapping Machine",
+            "lastUpdate": 2026,
+            "status": "demo",
+            "description": [
+                "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
+            ],
+            "tags": ["typescript", "babylon.js", "physic"],
+            "medias": [{ "url": "assets/images/grapping-machine.PNG" }],
+            "playUrl": "https://tiaratum.com/grapping-machine/",
+            "sourceUrl": "https://github.com/SvenFrankson/grapping-machine"
+		},
+		{
+            "id": "cube-pets-tower",
+            "score": 80,
+			"title": "Cube Pets Tower",
+            "lastUpdate": 2026,
+            "status": "game",
+            "description": [
+                "Protect cute pets from falling cannon-balls in Cube Pets Tower, a reversed AngryBird !",
+                "Cube Pets Tower was made in 60 hours for Wavedash Spring-Jam 2026."
+            ],
+            "credits": [
+                {
+                    "role": "Code & Game Design",
+                    "name": "Sven // Tiaratum Games"
+                },
+                {
+                    "role": "3D Engine",
+                    "name": "BabylonJS"
+                },
+                {
+                    "role": "Animals",
+                    "description": "Cube Pets (CC0)",
+                    "name": "KenneyNL",
+                    "website": "https://kenney.nl"
+                },
+                {
+                    "role": "Music",
+                    "description": "Origami (CC-BY 4.0)",
+                    "name": "Scott Buckley",
+                    "website": "https://scottbuckley.com.au"
+                },
+                {
+                    "role": "Skybox",
+                    "description": "SkyBox In The Cloud (CC-BY 4.0)",
+                    "name": "Paul",
+                    "website": "https://sketchfab.com/paul_paul_paul"
+                }
+            ],
+            "tags": ["typescript", "babylon.js", "physic", "construction", "webgl"],
+            "tiaratumGames": true,
+            "cardIndex": 1,
+            "medias": [
+                {
+                    "url": "assets/images/cube-pets-tower/miniature_2.png",
+                    "description": "Cube Pets Tower"
+                },
+                {
+                    "url": "assets/images/cube-pets-tower/screenshot_4.png",
+                    "description": "Find shelter during the storm !"
+                },
+                {
+                    "url": "assets/images/cube-pets-tower/screenshot_5.png",
+                    "description": "Enjoy a sunny day !"
+                }
+            ],
+            "playUrl": "https://wavedash.com/games/cube-pets-tower",
+            "sourceUrl": "https://github.com/SvenFrankson/wavedash-springjam-2026"
+		},
+        {
+            "id": "babylonjs-tiaratumgames-tools",
+            "score": 10,
+            "title": "Tiaratum Games Tools for BabylonJS",
+            "lastUpdate": 2026,
+            "status": "code",
+            "description": [
+                "babylonjs-tiaratumgames-tools is a collection of tools and utilities for BabylonJS.",
+                "AnimationFactory are helpers to animation numbers, Vector3 and Color3.",
+                "Intersection provides methods to compute intersection between Ray, Box, Sphere, Mesh, Capsule and Wire.",
+                "MeshBuilder extends BabylonJS MeshBuilder methods with BeveledBox, BeveledCylinder, 9Sliced Quad, Disc, DiscSlice and SphereCut.",
+                "Number, Vector3 and Quaternion are extended with useful computation and generation methods.",
+                "VertexDataUtils provides methods to manipulate VertexData, like merging, cloning, scaling, translatin, rotating, coloring and mirroring."
+            ],
+            "tags": ["npm", "typescript", "babylon.js"],
+            "tiaratumGames": true,
+            "medias": [{ "url": "assets/images/babylonjs-tiaratumgames-tools.PNG" }],
+            "npmUrl": "https://www.npmjs.com/package/babylonjs-tiaratumgames-tools",
+            "sourceUrl": "https://github.com/SvenFrankson/babylonjs-tiaratumgames-tools"
+        }
+	]
+}
