@@ -14,7 +14,7 @@ import { Header } from './header/header';
 	styleUrl: './app.scss',
 })
 export class App {
-	protected readonly title = signal('svendotcom-angular');
+	protected readonly title = signal('tiaratum-dot-com');
 
 	constructor(private projectService: ProjectService, private globalsService: GlobalService) {
 		
