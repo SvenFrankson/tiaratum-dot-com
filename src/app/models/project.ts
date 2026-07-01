@@ -53,6 +53,11 @@ export interface Project {
     playUrl?: string;
     npmUrl?: string;
     sourceUrl?: string;
+	extraUrls?: {
+		label: string,
+		url: string,
+		targetName?: string
+	}[];
 }
 
 export class ProjectModel {
@@ -91,6 +96,11 @@ export class ProjectModel {
     playUrl?: string;
 	npmUrl?: string;
     sourceUrl?: string;
+	extraUrls?: {
+		label: string,
+		url: string,
+		targetName?: string
+	}[];
 
     constructor(project: Project, private globalsService: GlobalService) {
         this.id = project.id;
@@ -109,6 +119,7 @@ export class ProjectModel {
         this.playUrl = project.playUrl;
 		this.npmUrl = project.npmUrl;
         this.sourceUrl = project.sourceUrl;
+		this.extraUrls = project.extraUrls;
         this.score = project.score || 0;
     }
 
@@ -228,11 +239,10 @@ export class ProjectModel {
 
 	getRank(): number {
 		let dateRankString = this.lastUpdate ? this.lastUpdate.toFixed(0) : "0000"
-		let notCodeRankString = this.status != 'code' ? "1" : "0";
-		let notBrokenRankString = this.status != 'broken' ? "1" : "0";
 		let scoreRankString = this.score.toFixed(0).padStart(3, '0');
+		let notBrokenRankString = this.status != 'broken' ? "1" : "0";
 		let tiaratumGamesRankString = this.tiaratumGames ? "1" : "0";
-		let rankString = `${tiaratumGamesRankString}${scoreRankString}${notBrokenRankString}${notCodeRankString}${dateRankString}`;
+		let rankString = `${tiaratumGamesRankString}${notBrokenRankString}${scoreRankString}${dateRankString}`;
 		return parseInt(rankString, 10);
 	}
 }

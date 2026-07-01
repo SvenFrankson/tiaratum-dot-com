@@ -168,7 +168,7 @@
             "score": 50,
 			"title": "Gravitology",
             "lastUpdate": 2026,
-            "status": "game",
+            "status": "hidden",
             "description": [
                 "Oups, there's no description for this project. Just click on the play button to discover it by yourself !"
             ],
@@ -215,7 +215,7 @@
                 "Very peaceful, the objective is to find some lost beacons in an asteroid minefield, with a help of your wingman.",
                 "Features a force-shield activated on asteroid impact, some custom physic engine and an efficient TrailRenderer.",
                 "The neat skybox was generated using Space-3D project, thanks a lot to wwwTyro.",
-                "Toon Shading Demo display customizable spaceships using Toon lightning and outline post-process (Sobel algorithm)"
+                "Toon Shading Demo displays customizable spaceships using Toon lightning and outline post-process (Sobel algorithm)"
             ],
             "credits": [
                 {
@@ -239,7 +239,13 @@
                 { "url": "assets/images/space-scout/space-scout.png" },
                 { "url": "assets/images/space-scout/space-scout-toon-shading.png" }
             ],
-			"playUrl": "https://svenfrankson.github.io/space-scout/"
+			"playUrl": "https://svenfrankson.github.io/space-scout/",
+            "extraUrls": [
+                { 
+                    "label": "TOON",
+                    "url": "https://svenfrankson.github.io/space-scout-demo/#test"
+                }
+            ]
 		},
 		{
             "id": "voxels",
@@ -353,7 +359,7 @@
 		},
 		{
             "id": "zoner",
-            "score": 50,
+            "score": 55,
 			"title": "Zoner",
             "lastUpdate": 2023,
             "status": "game",
@@ -415,7 +421,7 @@
 		},
 		{
             "id": "worldmaker",
-            "score": 50,
+            "score": 10,
 			"title": "WorldMaker",
             "lastUpdate": 2015,
             "status": "demo",
@@ -437,7 +443,7 @@
 		},
 		{
             "id": "3d-spectrum",
-            "score": 50,
+            "score": 10,
 			"title": "3D Spectrum",
             "lastUpdate": 2015,
             "status": "demo",
@@ -462,7 +468,7 @@
 		},
 		{
             "id": "reverso",
-            "score": 50,
+            "score": 0,
 			"title": "Reverso",
             "lastUpdate": 2018,
             "status": "code",
@@ -489,7 +495,7 @@
 		},
 		{
             "id": "water-sim-2d",
-            "score": 50,
+            "score": 57,
 			"title": "Water Sim 2D",
             "lastUpdate": 2026,
             "status": "demo",
@@ -611,11 +617,44 @@
         },
         {
             "id": "jarvisbook",
-            "score": 0,
+            "score": 55,
             "title": "JarvisBook",
-            "lastUpdate": 2026,
-            "status": "hidden",
-            "tags": ["c#"]
+            "lastUpdate": 2015,
+            "status": "code",
+            "description": [
+                "JarvisBook was my entry for the 5th edition of Boost Your Code, a contest organized by Inria for Open Source projects.",
+                "Jarvisbook aims at providing an extremely simple audio interface to read Facebook for visually impaired people.",
+                "The idea came when I was doing a civilian service at the GIHP, where I met the GIHP founder M. Roland Roux, who used a very simple audio interface to read press.",
+                "Jarvisbook was selected as a finalist project by the INRIA jury in 2015.",
+                "The code itself is silly by 2026 standards (and to be honest, probably by 2015 standards too !), as it relies on opening a web-browser in a .NET app and hard-crawl the Facebook page to recreate a tree-like structure of the user's flux :)"
+            ],
+            "tags": ["c#", "inria", "boost your code", "accessibility", "facebook"],
+            "cardIndex": 2,
+            "miniatureIndex": 0,
+            "medias": [
+                {
+                    "url": "assets/images/jarvisbook/jarvisbook.png"
+                },
+                {
+                    "url": "assets/images/jarvisbook/boost-your-code.jpg"
+                },
+                {
+                    "url": "assets/images/jarvisbook/jarvisbook_braille_only.png"
+                }
+            ],
+            "sourceUrl": "https://github.com/SvenFrankson/JarvisBook",
+            "extraUrls": [
+                {
+                    "label": "DOC (en)",
+                    "url": "https://github.com/SvenFrankson/JarvisBook/wiki/Presentation-(En)",
+                    "targetName": "github.com"
+                },
+                {
+                    "label": "DOC (fr)",
+                    "url": "https://github.com/SvenFrankson/JarvisBook/wiki/Presentation-(Fr)",
+                    "targetName": "github.com"
+                }
+            ]
         }
 	]
 }

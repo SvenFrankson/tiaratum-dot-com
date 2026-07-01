@@ -6,6 +6,9 @@
         @if (proj.npmUrl) {
             <a [href]="proj.npmUrl" target="_blank" rel="noopener noreferrer"><button><span class="links-button-name">NPM</span><span class="links-target-name">npmjs.com</span></button></a>
         }
+        @for (extraUrl of proj.extraUrls; track extraUrl.url) {
+            <a [href]="extraUrl.url" target="{{ extraUrl.targetName || '_blank' }}" rel="noopener noreferrer"><button><span class="links-button-name">{{ extraUrl.label }}</span><span class="links-target-name">{{ extraUrl.targetName || 'new tab' }}</span></button></a>
+        }
         @if (proj.sourceUrl) {
             <a [href]="proj.sourceUrl" target="_blank" rel="noopener noreferrer"><button><span class="links-button-name">SOURCE</span><span class="links-target-name">{{ proj.urlTargetName() }}</span></button></a>
         }
