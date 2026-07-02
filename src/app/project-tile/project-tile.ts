@@ -23,6 +23,15 @@ export class ProjectTile {
 	}
 
 	onClick() {
-		this.router.navigateByUrl(`project/${this.project().id}`);
+		const lang = this.getLang();
+		this.router.navigateByUrl(`${lang}/project/${this.project().id}`);
+	}
+
+	getLang(): string {
+		let splitUrl = this.router.url.split('/');
+		if (splitUrl.length >= 1 && (splitUrl[1] === 'fr')) {
+			return 'fr';
+		}
+		return 'en';
 	}
 }

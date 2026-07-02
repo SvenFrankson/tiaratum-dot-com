@@ -23,3 +23,17 @@ export const routes: Routes = [
     { path: 'project/:id', component: ProjectPage, resolve: { project: projectResolver } },
     { path: 'about', component: AboutPage },
 ];
+
+routes.push(
+    { path: 'fr', component: ProjectsContainer },
+    { path: 'fr/projects', component: ProjectsContainer },
+    { path: 'fr/project/:id', component: ProjectPage, resolve: { project: projectResolver } },
+    { path: 'fr/about', component: AboutPage },
+);
+
+routes.push(
+    { path: 'en', component: ProjectsContainer },
+    { path: 'en/projects', component: ProjectsContainer },
+    { path: 'en/project/:id', component: ProjectPage, resolve: { project: projectResolver } },
+    { path: 'en/about', component: AboutPage },
+);

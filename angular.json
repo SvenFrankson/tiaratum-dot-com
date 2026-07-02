@@ -8,12 +8,6 @@
 	"projects": {
 		"tiaratum-dot-com": {
 			"projectType": "application",
-			"i18n": {
-				"sourceLocale": "en-US",
-				"locales": {
-					"fr": "src/locale/messages.fr.xlf"
-				}
-			},
 			"schematics": {
 				"@schematics/angular:component": {
 					"style": "scss",
@@ -69,7 +63,6 @@
 					},
 					"configurations": {
 						"production": {
-							"localize": ["en-US", "fr"],
 							"budgets": [
 								{
 									"type": "initial",
@@ -88,12 +81,6 @@
 							"optimization": false,
 							"extractLicenses": false,
 							"sourceMap": true
-						},
-						"en": {
-							"localize": ["en-US"]
-						},
-						"fr": {
-							"localize": ["fr"]
 						}
 					},
 					"defaultConfiguration": "production"
@@ -106,21 +93,9 @@
 						},
 						"development": {
 							"buildTarget": "tiaratum-dot-com:build:development"
-						},
-						"en": {
-							"buildTarget": "tiaratum-dot-com:build:development,en"
-						},
-						"fr": {
-							"buildTarget": "tiaratum-dot-com:build:development,fr"
 						}
 					},
 					"defaultConfiguration": "development"
-				},
-				"extract-i18n": {
-					"builder": "@angular/build:extract-i18n",
-					"options": {
-						"buildTarget": "tiaratum-dot-com:build"
-					}
 				}
 			}
 		}

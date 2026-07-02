@@ -1,15 +1,31 @@
 <div class="about-page">
-    <h2 class="about-title">ABOUT</h2>
-    <p>Hello ! I'm Sven, a 35y/o french programmer</p>
-    <p>I've been a professional coder for the last 10 years, including 4 years as Gameplay/Instrument programmer on Microsoft Flight Simulator at Asobo Studio.</p>
-    <p>I created Tiaratum Games in 2023, a solo game dev studio where I create 3D web games.</p>
-    <p>I love voxels, procedural generation or animation and tinkering with BabylonJS.</p>
-    <p>Thanks for your interest and have a nice day !</p>
-    <p>— Sven Taton</p>
+    @if (en()) {
+        <h2 class="about-title">ABOUT</h2>
+        <p>Hello ! I'm Sven, a 35y/o french programmer</p>
+        <p>I've been a professional coder for the last 10 years, including 4 years as Gameplay/Instrument programmer on Microsoft Flight Simulator at Asobo Studio.</p>
+        <p>I created Tiaratum Games in 2023, a solo game dev studio where I create 3D web games.</p>
+        <p>I love voxels, procedural generation or animation and tinkering with BabylonJS.</p>
+        <p>Thanks for your interest and have a nice day !</p>
+        <p>— Sven Taton</p>
 
-    <h2 class="about-title">FAQ</h2>
-    <p><strong>Q: Would you be interested in porting Marble Run Simulator on our platform ?</strong></p>
-    <p>Marble Run Simulator is exclusively published as a web game by Poki.com and cannot be ported to other platforms.</p>
+        <h2 class="about-title">FAQ</h2>
+        <p><strong>Q: Would you be interested in porting Marble Run Simulator on our platform ?</strong></p>
+        <p>Marble Run Simulator is exclusively published as a web game by Poki.com and cannot be ported to other platforms.</p>
+    }
+    @if (fr()) {
+        <h2 class="about-title">À PROPOS</h2>
+        <p>Bonjour ! Je suis Sven, un programmeur français de 35 ans.</p>
+        <p>Je suis développeur professionnel depuis 10 ans, dont 4 ans en tant que programmeur Gameplay/Instrument sur Microsoft Flight Simulator chez Asobo Studio.</p>
+        <p>J'ai créé Tiaratum Games en 2023, un studio de développement de jeux solo où je crée des jeux web 3D.</p>
+        <p>J'adore les voxels, la génération procédurale et l'animation, et j'aime bricoler avec BabylonJS.</p>
+        <p>Merci pour votre intérêt et passez une bonne journée !</p>
+        <p>— Sven Taton</p>
+
+        <h2 class="about-title">FAQ</h2>
+        <p><strong>Q : Seriez-vous intéressé par le portage de Marble Run Simulator sur notre plateforme ?</strong></p>
+        <p>Marble Run Simulator est exclusivement publié en tant que jeu web par Poki.com et ne peut pas être porté sur d'autres plateformes.</p>
+    }
+
     @if (false) {
         <p><strong>Q: Source are disclosed, but I don't understand how to compile and run the project ?</strong></p>
         <p>It's probably caused by the fact I've used an old-fashioned build system, that requires specific environment setup for many projects.</p>
@@ -22,10 +38,23 @@
         <p>If you're still having trouble, feel free to reach out for assistance !</p> 
     }
     
-    <h2 class="about-title">Legal Notice</h2>
-    <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> is edited by Sven Taton, individual entrepreneur registered at the RCS under the number 980358428. <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> registered office is located at 84 rue du 14 Juillet, 33400 TALENCE, France.</p>
-    <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> is hosted by OVH, whose registered office is located at 2 rue Kellermann, 59100 Roubaix, France.</p>
-    <p>While Sven Taton and Tiaratum Games sincerely believe your online activites are meaningful, significant and interesting, neither Sven Taton nor Tiaratum Games made the effort to set up cookies and server side data management : no personal data is collected during your navigation on this website.</p>
-    <p>If data were to be collected by a game created or published by <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, or by a platform hosting a game created by <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, their processing would be subject to specific terms of use accessible from the concerned game or platform.</p>
-    <p>For any questions or requests regarding the <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> website, you can contact me at the following email address: tiaratumgames@gmail.com</p>
+    <div class="legal-notice">
+        @if (en()) {
+            <h2 class="about-title">Legal Notice</h2>
+
+            <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> is edited by Sven Taton, individual entrepreneur registered at the RCS under the number 980358428. <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> registered office is located at 84 rue du 14 Juillet, 33400 TALENCE, France.</p>
+            <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> is hosted by OVH, whose registered office is located at 2 rue Kellermann, 59100 Roubaix, France.</p>
+            <p>While Sven Taton and Tiaratum Games sincerely believe your online activites are meaningful, significant and interesting, neither Sven Taton nor Tiaratum Games made the effort to set up cookies and server side data management : no personal data is collected during your navigation on this website.</p>
+            <p>If data were to be collected by a game created or published by <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, or by a platform hosting a game created by <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, their processing would be subject to specific terms of use accessible from the concerned game or platform.</p>
+            <p>For any questions or requests regarding the <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> website, you can contact me at the following email address: tiaratumgames@gmail.com</p>
+        }
+        @if (fr()) {
+            <h2 class="about-title">Mentions légales</h2>
+            <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> est édité par Sven Taton, entrepreneur individuel enregistré au RCS sous le numéro 980358428. Le siège social de <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> est situé au 84 rue du 14 Juillet, 33400 TALENCE, France.</p>
+            <p><strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong> est hébergé par OVH, dont le siège social est situé au 2 rue Kellermann, 59100 Roubaix, France.</p>
+            <p>Bien que Sven Taton et Tiaratum Games croient sincèrement que vos activités en ligne sont significatives et dignes d'intérêt, ni Sven Taton ni Tiaratum Games n'ont fait l'effort de mettre en place des cookies et une gestion des données côté serveur : aucune donnée personnelle n'est collectée lors de votre navigation sur ce site.</p>
+            <p>Si des données devaient être collectées par un jeu créé ou publié par <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, ou par une plateforme hébergeant un jeu créé par <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, leur traitement serait soumis à des conditions d'utilisation spécifiques accessibles depuis le jeu ou la plateforme concernée.</p>
+            <p>Pour toute question ou demande concernant le site <strong>Sven&nbsp;//&nbsp;Tiaratum Games</strong>, vous pouvez me contacter à l'adresse email suivante : tiaratumgames@gmail.com</p>
+        }
+    </div>
 </div>

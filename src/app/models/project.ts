@@ -1,3 +1,4 @@
+import { Router } from "@angular/router";
 import { GlobalService } from "../globals-service";
 import { Comment, CommentModel } from "./comment";
 import { Credit, CreditModel } from "./credit";
@@ -102,7 +103,7 @@ export class ProjectModel {
 		targetName?: string
 	}[];
 
-    constructor(project: Project, private globalsService: GlobalService) {
+    constructor(project: Project, private globalsService: GlobalService, private router: Router) {
         this.id = project.id;
         this.title = project.title;
         this.lastUpdate = project.lastUpdate;
@@ -125,22 +126,22 @@ export class ProjectModel {
 
 	statusName(): string {
 		if (this.status === 'game') {
-			return 'game';
+			return this.fr() ? 'jeu' : 'game';
 		}
 		if (this.status === 'game-desktop') {
-			return 'game';
+			return this.fr() ? 'jeu' : 'game';
 		}
 		else if (this.status === 'demo') {
-			return 'demo';
+			return this.fr() ? 'démo' : 'demo';
 		}
 		else if (this.status === 'demo-desktop') {
-			return 'demo';
+			return this.fr() ? 'démo' : 'demo';
 		}
 		else if (this.status === 'code') {
-			return 'code only';
+			return this.fr() ? 'code' : 'code only';
 		}
 		else if (this.status === 'broken') {
-			return 'broken :\'(';
+			return this.fr() ? 'cassé :\'(' : 'broken :\'(';
 		}
 		return '';
 	}
@@ -180,17 +181,17 @@ export class ProjectModel {
 
 	playButtonName(): string {
 		if (this.status === 'game' || this.status === 'game-desktop') {
-			return 'Play';
+			return this.fr() ? 'Jouer' :'Play';
 		}
 		else if (this.status === 'demo' || this.status === 'demo-desktop') {
-			return 'Play';
+			return this.fr() ? 'Jouer' :'Play';
 		}
 		return '';
 	}
 
 	playTargetName(): string {
 		if (this.isDisabled()) {
-			return "(desktop only)";
+			return this.fr() ? "(ordi uniquement)" : "(desktop only)";
 		}
 		if (this.playUrl?.indexOf('poki.com') !== -1) {
 			return 'poki.com';
@@ -201,7 +202,7 @@ export class ProjectModel {
 		if (this.playUrl?.indexOf('itch.io') !== -1) {
 			return 'itch.io';
 		}
-		return 'new tab';
+		return this.fr() ? 'nouvel onglet' : 'new tab';
 	}
 
 	urlTargetName(): string {
@@ -244,5 +245,21 @@ export class ProjectModel {
 		let tiaratumGamesRankString = this.tiaratumGames ? "1" : "0";
 		let rankString = `${tiaratumGamesRankString}${notBrokenRankString}${scoreRankString}${dateRankString}`;
 		return parseInt(rankString, 10);
+	}
+
+	getLang(): string {
+		let splitUrl = this.router.url.split('/');
+		if (splitUrl.length >= 1 && (splitUrl[1] === 'fr')) {
+			return 'fr';
+		}
+		return 'en';
+	}
+
+	en(): boolean {
+		return this.getLang() === 'en';
+	}
+
+	fr(): boolean {
+		return this.getLang() === 'fr';
 	}
 }

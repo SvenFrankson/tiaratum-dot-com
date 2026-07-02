@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Project, ProjectModel } from './models/project';
 import { GlobalService } from './globals-service';
 import { firstValueFrom } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Injectable({
 	providedIn: 'root',
@@ -10,12 +11,13 @@ import { firstValueFrom } from 'rxjs';
 export class ProjectService {
 	constructor(
 		private globalsService: GlobalService,
+		private router: Router,
 		private http: HttpClient
 	) {}
 
 	async getProjects(): Promise<ProjectModel[]> {
 		const data = await this.readProjectsFromHttp();
-		const projects = data.projects.map((project: Project) => new ProjectModel(project, this.globalsService));
+		const projects = data.projects.map((project: Project) => new ProjectModel(project, this.globalsService, this.router));
 		const tags = new Set<string>();
 		for (const project of projects) {
 			for (const tag of project.tags) {

@@ -25,6 +25,20 @@ export const serverRoutes: ServerRoute[] = [
 		},
 	},
 	{
+		path: 'en/project/:id',
+		renderMode: RenderMode.Prerender,
+		async getPrerenderParams() {
+			return getProjectIds().map((id) => ({ id }));
+		},
+	},
+	{
+		path: 'fr/project/:id',
+		renderMode: RenderMode.Prerender,
+		async getPrerenderParams() {
+			return getProjectIds().map((id) => ({ id }));
+		},
+	},
+	{
 		path: '**',
 		renderMode: RenderMode.Prerender,
 	},
