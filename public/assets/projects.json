@@ -261,7 +261,8 @@
                     "label": "TOON",
                     "url": "https://svenfrankson.github.io/space-scout-demo/#test"
                 }
-            ]
+            ],
+            "sourceUrl": "https://github.com/SvenFrankson/space-scout"
 		},
 		{
             "id": "voxels",

@@ -15,9 +15,11 @@ export class Header {
 
 	constructor(public router: Router) {
 		this.router.events.subscribe(() => {
-			this.isHomePage = this.router.url === '/' || this.router.url === '/home' || this.router.url === '/projects';
-			this.isAboutPage = this.router.url === '/about';
-			this.isContactPage = this.router.url === '/contact';
+			let page = this.router.url.split('/').pop();
+			console.log(page);
+			this.isHomePage = page === undefined || page === '' || page === 'fr' || page === 'en';
+			this.isAboutPage = page === 'about';
+			this.isContactPage = page === 'contact';
 		});
 	}
 

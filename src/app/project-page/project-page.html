@@ -1,8 +1,6 @@
 @if (project(); as proj) {
     <div class="project-page">
         <div class="project-title">{{ proj.title | uppercase }}</div>
-
-
             <div class="container">
                 <div class="tags">
                     @for (tag of proj.tags; track tag) {

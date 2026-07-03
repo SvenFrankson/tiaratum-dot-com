@@ -48,8 +48,16 @@ h1 img {
     background-color: var(--color-main);
     color: var(--color-main-text);
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+    .header button {
+        font-size: 18px;
+        height: 40px;
+        padding: 5px 10px;
+    }
 }
 
 .header button.active {
@@ -65,4 +73,12 @@ select {
     padding: 0px 5px;
     border: none;
     cursor: pointer;
+}
+
+
+@media (max-width: 1250px) {
+    select {
+        font-size: 16px;
+
+    }
 }

@@ -4,6 +4,12 @@
     justify-content: space-evenly;
 }
 
+@media (max-width: 1250px) {
+    .links {
+        display: block;
+    }
+}
+
 button {
     padding: 0px;
     width: 150px;
@@ -14,6 +20,12 @@ button {
     color: var(--color-gold-text);
     cursor: pointer;
     user-select: none;
+}
+
+@media (max-width: 1250px) {
+    button {
+        margin: 5px;
+    }
 }
 
 button.disabled {
