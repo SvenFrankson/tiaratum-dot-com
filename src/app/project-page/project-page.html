@@ -23,7 +23,7 @@
             <div class="container container-description">
                 <app-links class="col-2" [project]="proj"></app-links>
                 <div class="description-container">
-                    @for (line of proj.description; track line) {
+                    @for (line of proj.getDescription(); track line) {
                         <p>{{ line }}</p>
                     }
                 </div>

@@ -22,15 +22,7 @@ export class Header {
 	}
 
 	ngOnInit() {
-		if (this.getLang() === '') {
-			const navigatorLang = navigator.language || (navigator as any).userLanguage;
-			if (navigatorLang.startsWith('fr')) {
-				this.router.navigateByUrl('/fr');
-			}
-			else {
-				this.router.navigateByUrl('/en');
-			}
-		}
+		
 	}
 
 	getLang(): string {

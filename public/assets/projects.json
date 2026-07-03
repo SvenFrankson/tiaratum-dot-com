@@ -6,13 +6,22 @@
 			"title": "Marble Run Simulator",
             "lastUpdate": 2026,
             "status": "game",
-			"description": [
-                "Marble Run Simulator is a construction game, a tool to build beautiful kinetic sculptures. It features a homemade lifelike physic engine that can run on a mobile web-browser.",
-                "With more than 20 different parameterizable track elements in its current version, the machine editor offers endless building possibilities.",
-                "Constructions made in Marble Run Simulator can be hosted on Tiaratum Games server to be shared online via a simple url.",
-                "Marble Run Simulator is exclusively distributed by Poki.",
-                "Released on July 3rd 2024, more than 1 700 000 players have already played Marble Run Simulator and shared thousands of machines."
-            ],
+			"description": {
+                "fr": [
+                    "Marble Run Simulator est un jeu de construction, un outil pour créer de magnifiques sculptures cinétiques. Il dispose d'un moteur physique réaliste fait maison qui peut tourner sur un navigateur web mobile.",
+                    "Avec plus de 20 éléments de piste paramétrables dans sa version actuelle, l'éditeur de machines offre des possibilités de construction infinies.",
+                    "Les constructions faites dans Marble Run Simulator peuvent être hébergées sur le serveur de Tiaratum Games pour être partagées en ligne via une simple url.",
+                    "Marble Run Simulator est distribué exclusivement par Poki.",
+                    "Sorti le 3 juillet 2024, plus de 1 700 000 joueurs ont déjà joué à Marble Run Simulator et partagé des milliers de machines."
+                ],
+                "en": [
+                    "Marble Run Simulator is a construction game, a tool to build beautiful kinetic sculptures. It features a homemade lifelike physic engine that can run on a mobile web-browser.",
+                    "With more than 20 different parameterizable track elements in its current version, the machine editor offers endless building possibilities.",
+                    "Constructions made in Marble Run Simulator can be hosted on Tiaratum Games server to be shared online via a simple url.",
+                    "Marble Run Simulator is exclusively distributed by Poki.",
+                    "Released on July 3rd 2024, more than 1 700 000 players have already played Marble Run Simulator and shared thousands of machines."
+                ]
+            },
             "comments": [
                 { "text": "\"This is SO FUN! It reminds me of building coasters in Rollercoaster Tycoon.\"", "author": "— Carol, BabylonJS 3D graphics dev" },
                 { "text": "\"I wanted to be an engineer and this games physics is so cool for an engineer no im playing non stop in this game!\"", "author": "— Anonymous Player" },
@@ -75,11 +84,18 @@
 			"title": "Carillion",
             "lastUpdate": 2026,
             "status": "game",
-            "description": [
-                "Carillion is an arcade-puzzle game.",
-                "Along more than 80 levels, collect colored Tiles using a Puck that you may only steer left or right while it bounces in a 3D decor.",
-                "Simple to learn, hard to put down, try it now !"
-            ],
+            "description": {
+                "en": [
+                    "Carillion is an arcade-puzzle game.",
+                    "Along more than 80 levels, collect colored Tiles using a Puck that you may only steer left or right while it bounces in a 3D decor.",
+                    "Simple to learn, hard to put down, try it now !"
+                ],
+                "fr": [
+                    "Carillion est un jeu d'arcade-puzzle.",
+                    "Au cours de plus de 80 niveaux, collectez des tuiles colorées en utilisant un palet que vous ne pouvez diriger que de gauche à droite tandis qu'il rebondit de haut en bas dans un décor 3D.",
+                    "Facile à apprendre, difficile à lâcher, essayez-le maintenant !"
+                ]
+            },
             "comments": [
                 { "text": "\"A very fun, fairly addictive puzzle game! It was nice trying to think through how to advance, then actually pull it off in the moment. Good job!\"", "author": "— rosko vair (itch.io)" },
                 { "text": "\"All in all, this is a very strong submission with clever novel mechanics and outstanding presentation, one of the best I've played in this jam yet. Great work!\"", "author": "— Lanyard (itch.io)" }

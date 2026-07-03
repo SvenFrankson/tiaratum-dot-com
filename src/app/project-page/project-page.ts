@@ -59,8 +59,9 @@ export class ProjectPage {
 	}
 
 	private getProjectDescription(project: ProjectModel): string {
-		if (project.description && project.description.length > 0) {
-			return project.description[0];
+		let description = project.getDescription();
+		if (description && description.length > 0) {
+			return description[0];
 		}
 
 		return `${project.title} project by Sven // Tiaratum Games.`;

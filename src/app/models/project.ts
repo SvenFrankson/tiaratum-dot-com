@@ -41,7 +41,7 @@ export interface Project {
 	score?: number;
     title: string;
     lastUpdate?: number;
-    description?: string[];
+    description?: string[] | { [key: string]: string[] };
 	credits?: Credit[];
 	comments?: Comment[];
     tags: string[];
@@ -67,7 +67,7 @@ export class ProjectModel {
 	score: number = 0;
     title: string;
     lastUpdate?: number;
-    description?: string[];
+    description?: string[] | { [key: string]: string[] };
 	credits: CreditModel[];
 	comments: CommentModel[];
     tags: string[];
@@ -160,6 +160,24 @@ export class ProjectModel {
 			return 'bi bi-heartbreak-fill';
 		}
 		return 'bi bi-question';
+	}
+
+	getDescription(): string[] {
+		if (this.description) {
+			if (Array.isArray(this.description)) {
+				return this.description;
+			}
+			else {
+				let lang = this.getLang();
+				if (this.description[lang]) {
+					return this.description[lang];
+				}
+				else {
+					return [];
+				}
+			}
+		}
+		return [];
 	}
 
     isDisabled(): boolean {
