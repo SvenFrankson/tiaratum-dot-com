@@ -13,6 +13,7 @@ p.comment {
     margin: 10px auto 0px auto;
     border-radius: 5px;
     font-style: italic;
+    box-shadow: 1px 1px 5px var(--color-black);
 }
 
 p.comment .comment-text {

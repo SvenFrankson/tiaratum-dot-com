@@ -8,18 +8,20 @@
             "status": "game",
 			"description": {
                 "fr": [
-                    "Marble Run Simulator est un jeu de construction, un outil pour créer de magnifiques sculptures cinétiques. Il dispose d'un moteur physique réaliste fait maison qui peut tourner sur un navigateur web mobile.",
-                    "Avec plus de 20 éléments de piste paramétrables dans sa version actuelle, l'éditeur de machines offre des possibilités de construction infinies.",
-                    "Les constructions faites dans Marble Run Simulator peuvent être hébergées sur le serveur de Tiaratum Games pour être partagées en ligne via une simple url.",
+                    "Marble Run Simulator est un jeu de construction de machines à billes, un outil qui permet de créer de magnifiques sculptures cinétique.",
+                    "Avec plus de 30 pièces paramétrables, Marble Run Simulator offre des possibilités de construction quasi-illimitées !",
+                    "La mise en mouvement des billes est assurée par un moteur physique développé spécialement pour l'occasion qui reproduit fidèlement le mouvement d'une bille sur un rail. Implémenté en Javascript, le moteur est compatible avec un navigateur mobile.",
+                    "Des joueurs du monde entier partagent chaque jour leurs constructions à la communauté des joueurs de Marble Run Simulator et votent pour leurs machines préférées.",
                     "Marble Run Simulator est distribué exclusivement par Poki.",
                     "Sorti le 3 juillet 2024, plus de 1 700 000 joueurs ont déjà joué à Marble Run Simulator et partagé des milliers de machines."
                 ],
                 "en": [
-                    "Marble Run Simulator is a construction game, a tool to build beautiful kinetic sculptures. It features a homemade lifelike physic engine that can run on a mobile web-browser.",
-                    "With more than 20 different parameterizable track elements in its current version, the machine editor offers endless building possibilities.",
-                    "Constructions made in Marble Run Simulator can be hosted on Tiaratum Games server to be shared online via a simple url.",
+                    "Marble Run Simulator is a marble machine construction game, a tool that allows you to create beautiful kinetic sculptures.",
+                    "With more than 30 customizable pieces, Marble Run Simulator offers almost unlimited building possibilities!",
+                    "The movement of the marbles is simulated by a physics engine developed specifically for the occasion, which faithfully reproduces the movement of a marble on a track. Implemented in JavaScript, the engine is compatible with a mobile browser.",
+                    "Players from all around the world share their constructions daily with the Marble Run Simulator community and vote for their favorite machines.",
                     "Marble Run Simulator is exclusively distributed by Poki.",
-                    "Released on July 3rd 2024, more than 1 700 000 players have already played Marble Run Simulator and shared thousands of machines."
+                    "Released on July 3, 2024, more than 1,700,000 players have already played Marble Run Simulator and shared thousands of machines."
                 ]
             },
             "comments": [

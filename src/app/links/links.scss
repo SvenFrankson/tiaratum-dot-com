@@ -18,6 +18,7 @@ button {
     border: none;
     border-radius: 5px;
     color: var(--color-gold-text);
+    box-shadow: 1px 1px 5px var(--color-black);
     cursor: pointer;
     user-select: none;
 }

@@ -1,7 +1,7 @@
 @if (project(); as proj) {
     <div class="links">
         @if (proj.playUrl) {
-            <button [ngClass]="{ 'disabled': proj.isDisabled() }" (click)="proj.onPlayClick($event)"><span class="links-button-name">{{ proj.playButtonName() | uppercase }}</span><span class="links-target-name">{{ proj.playTargetName() }}</span></button>
+            <button class="play" [ngClass]="{ 'disabled': proj.isDisabled() }" (click)="proj.onPlayClick($event)"><span class="links-button-name">{{ proj.playButtonName() | uppercase }}</span><span class="links-target-name">{{ proj.playTargetName() }}</span></button>
         }
         @if (proj.npmUrl) {
             <a [href]="proj.npmUrl" target="_blank" rel="noopener noreferrer"><button><span class="links-button-name">NPM</span><span class="links-target-name">npmjs.com</span></button></a>

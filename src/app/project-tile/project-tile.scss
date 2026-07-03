@@ -27,7 +27,8 @@
     background-position: center;
     text-align: left;
     vertical-align: top;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px var(--color-black);
+    cursor: pointer;
 }
 
 .project-tile .project-title {
